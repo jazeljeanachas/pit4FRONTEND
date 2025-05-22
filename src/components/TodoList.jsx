@@ -12,7 +12,7 @@ export default function TodoList() {
     return localStorage.getItem("theme") === "dark";
   });
 
-  const API_URL = "https://pit4backend.onrender.com/jazeltodo";
+  const API_URL = "https://pit4backend.onrender.com/jazeltodo/";
 
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "";
